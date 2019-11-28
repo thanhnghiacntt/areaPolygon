@@ -41,5 +41,5 @@ function areaPolygon(a) {
 
     area += (e0[0] * e1[1]) - (e0[1] * e1[0]);
   }
-  return area/2;
+  return Math.abs(area)/2;
 }
